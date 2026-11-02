@@ -1,13 +1,13 @@
 # Chunked Build Plan
 
-Each numbered step is intended to become one meaningful Git commit. Milestone 1 is complete; milestones 2–9 are planned. Input checks should be introduced with each feature, then checked together in milestone 8.
+Each step is planned as one Git commit. Step 1 is done; the rest still need to be built. I'll check input as I go, then do another pass in step 8.
 
-1. **Set up the project and GitHub repository.** Create the dedicated folder, Java starter, `.gitignore`, README, design document, Eisenhower Matrix, and this plan. Compile and run the welcome message. Suggested commit: `Set up internship tracker project and design plan`.
-2. **Create the internship data model.** Add an `Internship` class with a stable ID, company, role, status, link, dates, and notes. Store fictional examples in an `ArrayList` and check that their details display correctly. Suggested commit: `Add internship model and in-memory list`.
-3. **Build the menu and add/view features.** Use `Scanner` to let the user add opportunities, list them, and exit. Check multiple entries, required fields, and invalid menu choices. Suggested commit: `Add menu and opportunity entry`.
-4. **Add status and follow-up updates.** Let the user choose an opportunity by ID and change its status, notes, or follow-up date. Check that only the chosen opportunity changes and that unknown IDs are handled. Suggested commit: `Add application and follow-up updates`.
-5. **Save records to a local file.** Add file storage for all fields in the ignored `data/` directory. Check the output using fictional entries, including blank optional fields, and show whether saving succeeded. Suggested commit: `Save internship records to a local file`.
-6. **Load records when the program starts.** Read the saved file and rebuild the list while preserving IDs. Check a save/restart/load cycle, an empty file, and a first run with no file. Suggested commit: `Load saved internship records on startup`.
-7. **Show upcoming dates in order.** Add a view of upcoming application deadlines and follow-up dates using Java date tools and sorting. Check past dates, missing dates, tied dates, and an empty list. Suggested commit: `Show upcoming deadlines and follow-ups`.
-8. **Check input and file error handling.** Review the whole menu for invalid numbers, blank required fields, invalid dates, and unreadable or malformed files. Add focused regression checks and prevent a failed load from silently overwriting saved records. Suggested commit: `Handle invalid input and file errors`.
-9. **Verify the full workflow and finish the documentation.** Run through adding, updating, saving, closing, reopening, and viewing upcoming dates. Record the checks and update the README with the finished menu, file format, and usage examples. Suggested commit: `Document and verify the complete tracker workflow`.
+1. **Set up the project and GitHub repo.** Add the Java starter, `.gitignore`, README, and planning documents. Compile and run the starter to check the setup.
+2. **Make the `Internship` class.** Give each internship an ID, company, role, status, link, dates, and notes. Put a few made-up entries in an `ArrayList` and check that they display correctly.
+3. **Add the menu.** Use `Scanner` so I can add internships, view the list, and exit. Try adding more than one entry and entering an invalid menu choice.
+4. **Update applications.** Choose an internship by ID and change its status, notes, or follow-up date. Check that it changes the right entry and handles an ID that doesn't exist.
+5. **Save the list.** Write all the fields to a file in `data/`. Check the saved file with a few made-up entries, including ones with blank optional fields.
+6. **Load the list.** Read the file when the program starts and keep the same IDs. Check that entries are still there after restarting, and that the program works with an empty or missing file.
+7. **Show upcoming dates.** List deadlines and follow-ups from earliest to latest. Try past dates, matching dates, blank dates, and an empty list.
+8. **Handle bad input and file errors.** Check invalid numbers, missing required fields, impossible dates, and files that can't be read. Make sure a failed load doesn't lead to overwriting saved information.
+9. **Try the whole program and finish the README.** Add an internship, update it, save, close, reopen, and check the upcoming dates. Write down the results and add usage examples to the README.
