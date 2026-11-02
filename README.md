@@ -42,6 +42,6 @@ For now, it should print `Internship Tracker` and `Work in progress.`, then exit
 - [Design](docs/design.md)
 - [Feature matrix](docs/matrix.md)
 - [Build plan](docs/plan.md)
-- [Diagram draft](docs/system-diagram.png) / [draw.io source](docs/system-diagram.drawio)
+- [Diagram draft](docs/diagram.png) / [draw.io source](docs/diagram.drawio)
 
 The program starts in `src/Main.java`. I plan to keep entries in an `ArrayList` and use a separate class to save and load them. Personal records will go in `data/`, which is ignored by Git. I'll add tests as I build the features.

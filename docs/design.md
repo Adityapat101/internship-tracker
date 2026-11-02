@@ -44,9 +44,9 @@ See [the nine steps](plan.md). Only step 1 is done so far.
 
 This is an AI-generated reference draft. I still need to draw the final diagram myself for section 2.4. The tracking features shown also still need to be built.
 
-![Reference draft of the internship tracker diagram](system-diagram.png)
+![Simple reference draft of the internship tracker diagram](diagram.png)
 
-[draw.io source for the draft](system-diagram.drawio)
+[draw.io source for the draft](diagram.drawio)
 
 ## 3.1: GitHub link
 
