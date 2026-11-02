@@ -41,3 +41,11 @@ I'll check input as I add each feature. The program should explain invalid choic
 ## 2.3: Build Plan
 
 See [the build plan](MILESTONES.md). So far, only step 1 is done.
+
+## 2.4: System Diagram
+
+Not added yet. I still need to draw the diagram in a diagramming tool, embed the exported PNG or JPG here, and add the editable source file to the repo.
+
+## 3.1: GitHub Repository
+
+[Internship Tracker on GitHub](https://github.com/Adityapat101/internship-tracker)
