@@ -1,33 +1,33 @@
 # Internship Tracker
 
-A small Java project to keep track of internship applications, deadlines, and when to follow up.
+A Java terminal program to keep my internship applications and important dates in one place.
 
-Right now it just prints a welcome message. I still need to build the actual tracking features.
+So far, only the setup is done. The program prints a welcome message.
 
-## First version (MVP)
+## First version
 
-- Add internships with the company, role, and application link.
-- Update the status and keep notes about each application.
-- Show upcoming deadlines and follow-up dates.
-- Save everything to a file and load it the next time I open the program.
+- Add an internship with the company and role.
+- View the list of internships.
+- Update application statuses, notes, and follow-up dates.
+- Show deadlines and follow-ups from soonest to latest.
+- Save the list to a file and load it next time.
 
-## Later on
+## Later
 
-- Search by company or role and filter by application status.
-- Export the list to a CSV file.
+- Search by company or role and filter by status.
+- Export to CSV.
 - Add desktop or email reminders.
-- Try making a simple graphical interface.
+- Make a simple graphical interface.
 
-## Tech stack
+## Tools
 
-- Java 21, with `Scanner` for input and an `ArrayList` for the internship list.
-- `LocalDate` and `DateTimeFormatter` for dates, and `Comparator` for sorting.
-- `Files` and `Path` for saving and loading a local text file.
-- VS Code, the terminal, Git, and GitHub.
+- Java 21 or newer.
+- Java's built-in tools: `Scanner`, `ArrayList`, `LocalDate`, `DateTimeFormatter`, `Comparator`, `Files`, and `Path`.
+- VS Code, Git, and GitHub. No extra libraries or API needed.
 
-## How to run it
+## Run it
 
-You need JDK 21 or newer. There are no extra libraries to install. From the project folder, run:
+From the project folder:
 
 ```sh
 mkdir -p out
@@ -35,23 +35,13 @@ javac -d out src/*.java
 java -cp out Main
 ```
 
-For now, it should print this and exit:
+For now, it should print `Internship Tracker` and `Work in progress.`, then exit.
 
-```text
-Internship Tracker
-Work in progress.
-```
+## Notes
 
-## Project files
+- [Design](docs/design.md)
+- [Feature matrix](docs/matrix.md)
+- [Build plan](docs/plan.md)
+- [Diagram draft](docs/system-diagram.png) / [draw.io source](docs/system-diagram.drawio)
 
-- `src/Main.java` is where the program starts.
-- [Design](docs/DESIGN.md) explains the idea and tools.
-- [Eisenhower Matrix](docs/EISENHOWER_MATRIX.md) lists what goes in the first version and what can wait.
-- [Build plan](docs/MILESTONES.md) has the steps I plan to follow.
-
-- [System diagram](docs/system-diagram.png) shows the planned program flow.
-- [Editable diagram](docs/system-diagram.drawio) can be opened in draw.io.
-
-The plan is to keep `Internship` objects in an `ArrayList` and use a separate class for saving and loading files. Personal records will go in `data/`, which is ignored by Git. I'll use made-up records for examples and tests.
-
-The compile-and-run check above is the only check so far. I'll add tests as I build the features.
+The program starts in `src/Main.java`. I plan to keep entries in an `ArrayList` and use a separate class to save and load them. Personal records will go in `data/`, which is ignored by Git. I'll add tests as I build the features.
