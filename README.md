@@ -49,7 +49,8 @@ Work in progress.
 - [Eisenhower Matrix](docs/EISENHOWER_MATRIX.md) lists what goes in the first version and what can wait.
 - [Build plan](docs/MILESTONES.md) has the steps I plan to follow.
 
-The system diagram and its editable source still need to be added.
+- [System diagram](docs/system-diagram.png) shows the planned program flow.
+- [Editable diagram](docs/system-diagram.drawio) can be opened in draw.io.
 
 The plan is to keep `Internship` objects in an `ArrayList` and use a separate class for saving and loading files. Personal records will go in `data/`, which is ignored by Git. I'll use made-up records for examples and tests.
 

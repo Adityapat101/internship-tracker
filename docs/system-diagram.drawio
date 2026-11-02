@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="internship-tracker-mvp" name="Planned MVP">
+    <mxGraphModel dx="1480" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1480" pageHeight="1200" math="0" shadow="0" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Internship Tracker — Planned MVP" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=18;fontColor=#222222;align=center;verticalAlign=middle;strokeWidth=1.5;spacing=10;text;strokeColor=none;fillColor=none;fontStyle=1;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="330" y="25" width="820" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Java terminal program with local file storage" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=18;fontColor=#222222;align=center;verticalAlign=middle;strokeWidth=1.5;spacing=10;text;strokeColor=none;fillColor=none;fontSize=17;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="330" y="75" width="820" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="start" value="START&#10;Main.main()" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=18;fontColor=#222222;align=center;verticalAlign=middle;strokeWidth=1.5;spacing=10;rounded=1;arcSize=50;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="135" width="300" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="load" value="Load saved internships&#10;FileStorage uses Files + Path&#10;Missing file: start with an empty list" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=18;fontColor=#222222;align=center;verticalAlign=middle;strokeWidth=1.5;spacing=10;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="510" y="275" width="460" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="menu" value="Show menu&#10;Read input with Scanner" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=18;fontColor=#222222;align=center;verticalAlign=middle;strokeWidth=1.5;spacing=10;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="580" y="485" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="choice" value="Choose an&#10;option" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=18;fontColor=#222222;align=center;verticalAlign=middle;strokeWidth=1.5;spacing=10;rhombus;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="600" y="630" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="actions" value="Work with internships&#10;Add a new entry / View entries&#10;Update status, notes, or dates by ID&#10;Show upcoming deadlines / follow-ups&#10;Sort dates with LocalDate + Comparator" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=18;fontColor=#222222;align=center;verticalAlign=middle;strokeWidth=1.5;spacing=10;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="60" y="605" width="400" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="list" value="ArrayList&lt;Internship&gt;&#10;ID, company, role, link, status,&#10;deadline, follow-up date, notes" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=18;fontColor=#222222;align=center;verticalAlign=middle;strokeWidth=1.5;spacing=10;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="60" y="900" width="400" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="save" value="Save internships&#10;FileStorage uses Files + Path&#10;Report if saving fails" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=18;fontColor=#222222;align=center;verticalAlign=middle;strokeWidth=1.5;spacing=10;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="645" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="file" value="Local file: data/internships.tsv&#10;Saved internship records" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=18;fontColor=#222222;align=center;verticalAlign=middle;strokeWidth=1.5;spacing=10;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="280" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="end" value="END&#10;Close program" style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=18;fontColor=#222222;align=center;verticalAlign=middle;strokeWidth=1.5;spacing=10;rounded=1;arcSize=50;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="930" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="All features shown are planned.&#10;File errors are reported; a failed load keeps the original file." style="whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=18;fontColor=#222222;align=center;verticalAlign=middle;strokeWidth=1.5;spacing=10;text;strokeColor=none;fillColor=none;fontSize=16;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1080" width="890" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="launch" value="start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontFamily=Arial;fontSize=16;fontColor=#333333;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="start" target="load">
+          <mxGeometry x="0" y="-13" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="read-file" value="read records" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontFamily=Arial;fontSize=16;fontColor=#333333;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="file" target="load">
+          <mxGeometry x="0" y="-16" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="loaded-data" value="loaded records" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontFamily=Arial;fontSize=16;fontColor=#333333;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="load" target="list">
+          <mxGeometry x="-0.6" y="-16" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="340" />
+              <mxPoint x="20" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ready" value="list ready" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontFamily=Arial;fontSize=16;fontColor=#333333;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="load" target="menu">
+          <mxGeometry x="0" y="-13" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="menu-choice" value="typed choice" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontFamily=Arial;fontSize=16;fontColor=#333333;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="menu" target="choice">
+          <mxGeometry x="0" y="-13" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="work-choice" value="work with&#10;entries" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontFamily=Arial;fontSize=16;fontColor=#333333;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="choice" target="actions">
+          <mxGeometry x="0" y="-28" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="list-access" value="read / change list" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontFamily=Arial;fontSize=16;fontColor=#333333;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;startArrow=block;startFill=1;" edge="1" parent="1" source="actions" target="list">
+          <mxGeometry x="0" y="-13" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="action-result" value="show result; repeat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontFamily=Arial;fontSize=16;fontColor=#333333;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="actions" target="menu">
+          <mxGeometry x="0.3" y="-13" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="520" />
+              <mxPoint x="520" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="save-choice" value="Save" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontFamily=Arial;fontSize=16;fontColor=#333333;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="choice" target="save">
+          <mxGeometry x="0" y="-13" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="write-file" value="write records" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontFamily=Arial;fontSize=16;fontColor=#333333;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" parent="1" source="save" target="file">
+          <mxGeometry x="0" y="-13" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="save-result" value="saved / error; repeat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontFamily=Arial;fontSize=16;fontColor=#333333;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0;exitY=0.2;entryX=1;entryY=0.5;" edge="1" parent="1" source="save" target="menu">
+          <mxGeometry x="-0.15" y="-16" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="667" />
+              <mxPoint x="1050" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="exit-choice" value="Exit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontFamily=Arial;fontSize=16;fontColor=#333333;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="choice" target="end">
+          <mxGeometry x="0" y="-13" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="save-data" value="current records" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;fontFamily=Arial;fontSize=16;fontColor=#333333;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=1;" edge="1" parent="1" source="list" target="save">
+          <mxGeometry x="0" y="-16" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="1070" />
+              <mxPoint x="1260" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

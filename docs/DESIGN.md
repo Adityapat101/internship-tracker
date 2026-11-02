@@ -44,7 +44,11 @@ See [the build plan](MILESTONES.md). So far, only step 1 is done.
 
 ## 2.4: System Diagram
 
-Not added yet. I still need to draw the diagram in a diagramming tool, embed the exported PNG or JPG here, and add the editable source file to the repo.
+This draft shows the plan for the first version. The tracking features still need to be built.
+
+![Planned MVP system diagram for the internship tracker](system-diagram.png)
+
+[Editable draw.io file](system-diagram.drawio)
 
 ## 3.1: GitHub Repository
 
